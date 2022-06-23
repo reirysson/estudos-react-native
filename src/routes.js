@@ -33,6 +33,16 @@ function Routes() {
             <Drawer.Screen
                 name="MyLinks"
                 component={MyLinks}
+                options={{
+                    title: 'Meus links',
+                    drawerIcon: ({ focused, size, color }) => (
+                        <Ionicons
+                            name={focused ? 'stats-chart' : 'stats-chart-outline'}
+                            color={color}
+                            size={size}
+                        />
+                    )
+                }}
             />
         </Drawer.Navigator>
     )
