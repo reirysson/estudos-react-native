@@ -1,7 +1,8 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 
-import { LinearGradient } from 'expo-linear-gradient'
+import { LinearGradient } from 'expo-linear-gradient';
+import StatusBarPage from '../../components/StatusBarPage';
 
 export default function Home() {
     return(
@@ -9,6 +10,10 @@ export default function Home() {
             colors={['#1DDBB9', '#132742']}
             style={{ flex:1, justifyContent: 'center' }}
         >
+            <StatusBarPage 
+                barStyle='light-content'
+                backgroundColor='#1DDBB9'
+            />
             <Text>Pagina home</Text>
         </LinearGradient>
     )
