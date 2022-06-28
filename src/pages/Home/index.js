@@ -17,7 +17,7 @@ export default function Home() {
             />
 
             <ContainerLogo>
-                <Logo source={require('../../assets/img/logo.png')}/>  
+                <Logo source={require('../../assets/img/logo.png')} />  
             </ContainerLogo>
 
             
