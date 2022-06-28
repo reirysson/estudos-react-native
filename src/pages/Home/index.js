@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 import { LinearGradient } from 'expo-linear-gradient';
 import StatusBarPage from '../../components/StatusBarPage';
 
@@ -21,7 +20,7 @@ export default function Home() {
                 <Logo source={require('../../assets/img/logo.png')}/>  
             </ContainerLogo>
 
-            <Text>Pagina home</Text>
+            
         </LinearGradient>
     )
 }
